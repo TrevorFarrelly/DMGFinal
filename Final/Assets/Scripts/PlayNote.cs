@@ -6,7 +6,7 @@ public class PlayNote : MonoBehaviour {
 
 	public float freq;
 	public string debugButton;
-
+	public float volume = 1f;
 
 	private string type;
 	private ChuckSubInstance myChuck;
@@ -15,23 +15,23 @@ public class PlayNote : MonoBehaviour {
 	void Start () {
 		// get instrument type from parent
 		type = gameObject.GetComponentInParent<SoundID>().SoundType;
-		myChuck = GetComponent<ChuckSubInstance>();
-		
+		myChuck = GetComponentInParent<ChuckSubInstance>();
+
 	}
 
 	// play note
 	public void Play () {
 		myChuck.RunCode(string.Format(@"
-			
+
 			// consts
 			float mods[3];
 			[ 2.002, 1.998, 2.0000 ] @=> mods;
 
 			// init oscillators
 			{0} osc[3];
-			0.002 => osc[0].gain;
-			0.002 => osc[1].gain;
-			0.004 => osc[2].gain;
+			{2} * 0.002 => osc[0].gain;
+			{2} * 0.002 => osc[1].gain;
+			{2} * 0.004 => osc[2].gain;
 
 			// init filters
 			NRev r;
@@ -60,7 +60,7 @@ public class PlayNote : MonoBehaviour {
 			e.keyOff();
 			5::second => now;
 
-		", type, freq));
+		", type, freq, volume));
 	}
 
 	void Update()

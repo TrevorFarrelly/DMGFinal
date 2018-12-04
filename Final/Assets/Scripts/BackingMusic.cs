@@ -52,9 +52,9 @@ public class BackingMusic : MonoBehaviour {
 			// fade volume at start
 			fun void fadein() {
 			    for ( 0=> int i; i < 30; i++ ) {
-			        (i + 1) * 0.00002 => osc[0].gain;
-			        (i + 1) * 0.00002 => osc[1].gain;
-			        (i + 1) * 0.00002 => osc[2].gain;
+			        (i + 1) * 0.00006 => osc[0].gain;
+			        (i + 1) * 0.00006 => osc[1].gain;
+			        (i + 1) * 0.00006 => osc[2].gain;
 			        500::ms => now;
 			    }
 			}

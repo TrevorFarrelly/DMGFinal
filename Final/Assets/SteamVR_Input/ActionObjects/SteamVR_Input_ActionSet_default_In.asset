@@ -19,14 +19,10 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e6112a5159b7e9d4da53ae21568c2ed6, type: 2}
   - {fileID: 11400000, guid: 40c1877aa382db24cae0ef306a7f1c75, type: 2}
   - {fileID: 11400000, guid: b33b9ba573705b54c81a4ad339bbc7c4, type: 2}
-  - {fileID: 11400000, guid: fff756a63fa1c004686e5f26804fffb3, type: 2}
-  - {fileID: 11400000, guid: abec3e37e00581f45b63ff501474773d, type: 2}
-  - {fileID: 11400000, guid: a9e8617f9ffe8b8438d87ee024b55829, type: 2}
+  - {fileID: 11400000, guid: 0cf3f2e18089cbf4191c9be1e4a7e259, type: 2}
   InteractUI: {fileID: 11400000, guid: 373694b26e7be454eb59cbf3dbef4bfa, type: 2}
   Teleport: {fileID: 11400000, guid: 1fc806137aa5ae64ea443454a5dcddba, type: 2}
   GrabPinch: {fileID: 11400000, guid: e6112a5159b7e9d4da53ae21568c2ed6, type: 2}
   GrabGrip: {fileID: 11400000, guid: 40c1877aa382db24cae0ef306a7f1c75, type: 2}
   Pose: {fileID: 11400000, guid: b33b9ba573705b54c81a4ad339bbc7c4, type: 2}
-  SkeletonLeftHand: {fileID: 11400000, guid: fff756a63fa1c004686e5f26804fffb3, type: 2}
-  SkeletonRightHand: {fileID: 11400000, guid: abec3e37e00581f45b63ff501474773d, type: 2}
-  Squeeze: {fileID: 11400000, guid: a9e8617f9ffe8b8438d87ee024b55829, type: 2}
+  Position: {fileID: 11400000, guid: 0cf3f2e18089cbf4191c9be1e4a7e259, type: 2}
