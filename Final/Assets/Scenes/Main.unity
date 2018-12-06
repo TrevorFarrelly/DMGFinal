@@ -159,7 +159,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 174.61
-  debugButton: '['
   volume: 1
 --- !u!23 &9478269
 MeshRenderer:
@@ -265,7 +264,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 164.81
-  debugButton: p
   volume: 1
 --- !u!23 &29893407
 MeshRenderer:
@@ -371,7 +369,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 174.61
-  debugButton: 5
   volume: 1.6
 --- !u!23 &42929578
 MeshRenderer:
@@ -477,7 +474,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 392
-  debugButton: =
   volume: 1.6
 --- !u!23 &82363750
 MeshRenderer:
@@ -924,7 +920,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 196
-  debugButton: 6
   volume: 1.6
 --- !u!23 &135748543
 MeshRenderer:
@@ -996,9 +991,10 @@ GameObject:
   - component: {fileID: 154361621}
   - component: {fileID: 154361620}
   - component: {fileID: 154361619}
+  - component: {fileID: 154361622}
   m_Layer: 0
   m_Name: dodeca
-  m_TagString: SoundPanel
+  m_TagString: SoundObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1029,7 +1025,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 0
-  debugButton: z
   volume: 0
 --- !u!23 &154361620
 MeshRenderer:
@@ -1075,6 +1070,20 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 154361617}
   m_Mesh: {fileID: 4300028, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
+--- !u!64 &154361622
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 154361617}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300028, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
 --- !u!1 &290711311
 GameObject:
   m_ObjectHideFlags: 0
@@ -1090,7 +1099,7 @@ GameObject:
   - component: {fileID: 290711315}
   m_Layer: 0
   m_Name: cube
-  m_TagString: SoundPanel
+  m_TagString: SoundObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1179,7 +1188,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 0
-  debugButton: z
   volume: 0
 --- !u!1 &299585487
 GameObject:
@@ -1195,8 +1203,8 @@ GameObject:
   - component: {fileID: 299585489}
   - component: {fileID: 299585492}
   m_Layer: 0
-  m_Name: triangle
-  m_TagString: SoundPanel
+  m_Name: tetra
+  m_TagString: SoundObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1227,7 +1235,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 0
-  debugButton: z
   volume: 0
 --- !u!23 &299585490
 MeshRenderer:
@@ -1324,13 +1331,17 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 11450312, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
       propertyPath: renderModelPrefab
       value: 
       objectReference: {fileID: 1000011547835092, guid: d5082f7d9f947374197e0a97786f4e40,
         type: 2}
+    - target: {fileID: 11497470, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+      propertyPath: showDebugText
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
   m_IsPrefabAsset: 0
@@ -1359,9 +1370,11 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children:
-  - {fileID: 1850779135}
+  - {fileID: 483087901}
   - {fileID: 1360561814}
   - {fileID: 876172754}
+  - {fileID: 1850779135}
+  - {fileID: 1997672707}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1411,7 +1424,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 0
-  debugButton: r
   volume: 1
 --- !u!23 &396668046
 MeshRenderer:
@@ -1517,7 +1529,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 0
-  debugButton: t
   volume: 1
 --- !u!23 &474782586
 MeshRenderer:
@@ -1637,11 +1648,11 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 483087899}
   m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 30, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 120, z: 0}
+  m_LocalScale: {x: 4, y: 4, z: 4}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_Father: {fileID: 329233936}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &500746141
 GameObject:
@@ -1747,14 +1758,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 0
-  debugButton: y
   volume: 1
 --- !u!1001 &572432645
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 329233936}
     m_Modifications:
     - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
       propertyPath: m_LocalPosition.x
@@ -1786,7 +1796,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8252162, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
       propertyPath: m_Volume
@@ -1803,6 +1813,18 @@ Prefab:
     - target: {fileID: 8265126, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
       propertyPath: m_Volume
       value: 0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
@@ -1878,7 +1900,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 261.63
-  debugButton: 8
   volume: 1.6
 --- !u!23 &700261912
 MeshRenderer:
@@ -1984,7 +2005,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 0
-  debugButton: ''''
   volume: 1
 --- !u!23 &714121825
 MeshRenderer:
@@ -2202,7 +2222,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 0
-  debugButton: h
   volume: 1
 --- !u!23 &741491296
 MeshRenderer:
@@ -2342,7 +2361,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 0
-  debugButton: g
   volume: 1
 --- !u!23 &944623636
 MeshRenderer:
@@ -2535,7 +2553,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 0
-  debugButton: ;
   volume: 1
 --- !u!23 &961067981
 MeshRenderer:
@@ -2641,7 +2658,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 196
-  debugButton: ']'
   volume: 1
 --- !u!23 &996477663
 MeshRenderer:
@@ -2921,7 +2937,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 146.83
-  debugButton: 3
   volume: 1.6
 --- !u!23 &1104408526
 MeshRenderer:
@@ -3027,7 +3042,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 164.81
-  debugButton: 4
   volume: 1.6
 --- !u!23 &1120013936
 MeshRenderer:
@@ -3133,7 +3147,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 329.63
-  debugButton: 0
   volume: 1.6
 --- !u!23 &1157051005
 MeshRenderer:
@@ -3426,7 +3439,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 146.83
-  debugButton: o
   volume: 1
 --- !u!23 &1207293619
 MeshRenderer:
@@ -3532,7 +3544,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 349.23
-  debugButton: '-'
   volume: 1.6
 --- !u!23 &1251135419
 MeshRenderer:
@@ -3638,7 +3649,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 0
-  debugButton: j
   volume: 1
 --- !u!23 &1356342634
 MeshRenderer:
@@ -3778,7 +3788,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 110
-  debugButton: u
   volume: 1
 --- !u!23 &1371795179
 MeshRenderer:
@@ -4108,7 +4117,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 130.81
-  debugButton: i
   volume: 1
 --- !u!23 &1423247227
 MeshRenderer:
@@ -4214,7 +4222,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 0
-  debugButton: e
   volume: 1
 --- !u!23 &1446404006
 MeshRenderer:
@@ -4378,7 +4385,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 110
-  debugButton: 1
   volume: 1.6
 --- !u!1 &1543706552
 GameObject:
@@ -4783,7 +4789,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 0
-  debugButton: l
   volume: 1
 --- !u!23 &1712217257
 MeshRenderer:
@@ -4854,11 +4859,11 @@ GameObject:
   - component: {fileID: 1757193440}
   - component: {fileID: 1757193443}
   - component: {fileID: 1757193442}
-  - component: {fileID: 1757193444}
   - component: {fileID: 1757193441}
+  - component: {fileID: 1757193444}
   m_Layer: 0
   m_Name: octa
-  m_TagString: SoundPanel
+  m_TagString: SoundObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4889,7 +4894,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 0
-  debugButton: z
   volume: 0
 --- !u!23 &1757193442
 MeshRenderer:
@@ -5082,7 +5086,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 293.66
-  debugButton: 9
   volume: 1.6
 --- !u!23 &1807492575
 MeshRenderer:
@@ -5173,7 +5176,7 @@ Transform:
   - {fileID: 86214699}
   - {fileID: 2029708228}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1850779134
 GameObject:
@@ -5205,7 +5208,7 @@ Transform:
   m_LocalScale: {x: 5, y: 1, z: 5}
   m_Children: []
   m_Father: {fileID: 329233936}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1850779136
 MonoBehaviour:
@@ -5496,7 +5499,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 130.81
-  debugButton: 2
   volume: 1.6
 --- !u!23 &1940625145
 MeshRenderer:
@@ -5602,7 +5604,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 220
-  debugButton: 7
   volume: 1.6
 --- !u!23 &1972290456
 MeshRenderer:
@@ -5662,6 +5663,11 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300042, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
+--- !u!4 &1997672707 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283,
+    type: 2}
+  m_PrefabInternal: {fileID: 572432645}
 --- !u!1 &2029708227
 GameObject:
   m_ObjectHideFlags: 0
@@ -5951,7 +5957,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 0
-  debugButton: f
   volume: 1
 --- !u!1 &2070743075
 GameObject:
@@ -6173,7 +6178,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 0
-  debugButton: k
   volume: 1
 --- !u!23 &2146826904
 MeshRenderer:

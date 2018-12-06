@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayNote : MonoBehaviour {
 
 	public float freq;
-	public string debugButton;
 	public float volume = 1f;
 
 	private string type;
@@ -62,13 +61,4 @@ public class PlayNote : MonoBehaviour {
 
 		", type, freq, volume));
 	}
-
-	void Update()
-    {
-        if (Input.GetKeyDown(debugButton))
-        {
-            Play();
-        }
-    }
-
 }
