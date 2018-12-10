@@ -402,7 +402,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 174.61
-  volume: 2
+  volume: 2.4
 --- !u!23 &42929578
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -523,7 +523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 392
-  volume: 2
+  volume: 2.4
 --- !u!23 &82363750
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -779,8 +779,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e32fa50e49ab5d5448f9ae3fb3de6eb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hand: {fileID: 0}
-  RotationAction: {fileID: 11400000, guid: 8d89257952440f441afef28a29af7452, type: 2}
+  RotationChange: {x: 0, y: 0, z: 0}
 --- !u!114 &86214704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1114,7 +1113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 196
-  volume: 2
+  volume: 2.4
 --- !u!23 &135748543
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1587,7 +1586,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 174.61
-  volume: 1
+  volume: 1.2
 --- !u!23 &396668046
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1708,7 +1707,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 196
-  volume: 1
+  volume: 1.2
 --- !u!23 &474782586
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1939,7 +1938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 110
-  volume: 1
+  volume: 1.2
 --- !u!54 &500746148
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2016,7 +2015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 261.63
-  volume: 2
+  volume: 2.4
 --- !u!23 &700261912
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2090,6 +2089,60 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300040, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
+--- !u!1001 &712137638
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 107946, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+      propertyPath: m_Name
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 160596, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+      propertyPath: m_TagString
+      value: GameController
+      objectReference: {fileID: 0}
+    - target: {fileID: 144230, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+      propertyPath: m_TagString
+      value: GameController
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &714121822
 GameObject:
   m_ObjectHideFlags: 0
@@ -2136,8 +2189,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4acf4879162f6af42af5e1d884c4dc9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  freq: 0
-  volume: 1
+  freq: 392
+  volume: 4
 --- !u!23 &714121825
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2344,8 +2397,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4acf4879162f6af42af5e1d884c4dc9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  freq: 0
-  volume: 1
+  freq: 164.81
+  volume: 4
 --- !u!23 &741491296
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2499,8 +2552,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4acf4879162f6af42af5e1d884c4dc9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  freq: 0
-  volume: 1
+  freq: 130.81
+  volume: 4
 --- !u!23 &944623636
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2707,8 +2760,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4acf4879162f6af42af5e1d884c4dc9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  freq: 0
-  volume: 1
+  freq: 349.23
+  volume: 4
 --- !u!23 &961067981
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2782,26 +2835,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300066, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!1 &973008406 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 144230, guid: dc06161b6d97feb419f45f03b62e14b9,
-    type: 2}
-  m_PrefabInternal: {fileID: 2073171790}
---- !u!114 &973008408
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 973008406}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5522562eb55247d438b999613754851f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hand: {fileID: 0}
-  PlayAction: {fileID: 11400000, guid: 4c2dd93529820d54eb898dba3bcd9d26, type: 2}
-  PullAction: {fileID: 11400000, guid: b33289411f2e10648a4f482a88ceab24, type: 2}
-  GrabAction: {fileID: 11400000, guid: 44dcc0e3de7b2c74ca7969b47134779b, type: 2}
 --- !u!1 &996477660
 GameObject:
   m_ObjectHideFlags: 0
@@ -3144,7 +3177,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 146.83
-  volume: 2
+  volume: 2.4
 --- !u!23 &1104408526
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3265,7 +3298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 164.81
-  volume: 2
+  volume: 2.4
 --- !u!23 &1120013936
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3386,7 +3419,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 329.63
-  volume: 2
+  volume: 2.4
 --- !u!23 &1157051005
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3638,8 +3671,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e32fa50e49ab5d5448f9ae3fb3de6eb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hand: {fileID: 0}
-  RotationAction: {fileID: 11400000, guid: 8d89257952440f441afef28a29af7452, type: 2}
+  RotationChange: {x: 0, y: 0, z: 0}
 --- !u!114 &1195426420
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3944,7 +3976,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 349.23
-  volume: 2
+  volume: 2.4
 --- !u!23 &1251135419
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4064,8 +4096,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4acf4879162f6af42af5e1d884c4dc9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  freq: 0
-  volume: 1
+  freq: 196
+  volume: 4
 --- !u!23 &1356342634
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4686,7 +4718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 146.83
-  volume: 1
+  volume: 1.2
 --- !u!23 &1446404006
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4851,7 +4883,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 110
-  volume: 2
+  volume: 2.4
 --- !u!54 &1532008771
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5229,8 +5261,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e32fa50e49ab5d5448f9ae3fb3de6eb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hand: {fileID: 0}
-  RotationAction: {fileID: 11400000, guid: 8d89257952440f441afef28a29af7452, type: 2}
+  RotationChange: {x: 0, y: 0, z: 0}
 --- !u!114 &1706520696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5413,8 +5444,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4acf4879162f6af42af5e1d884c4dc9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  freq: 0
-  volume: 1
+  freq: 293.66
+  volume: 4
 --- !u!23 &1712217257
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5595,26 +5626,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300052, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!1 &1772724413 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 160596, guid: dc06161b6d97feb419f45f03b62e14b9,
-    type: 2}
-  m_PrefabInternal: {fileID: 2073171790}
---- !u!114 &1772724415
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1772724413}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5522562eb55247d438b999613754851f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hand: {fileID: 0}
-  PlayAction: {fileID: 11400000, guid: 4c2dd93529820d54eb898dba3bcd9d26, type: 2}
-  PullAction: {fileID: 11400000, guid: b33289411f2e10648a4f482a88ceab24, type: 2}
-  GrabAction: {fileID: 11400000, guid: 44dcc0e3de7b2c74ca7969b47134779b, type: 2}
 --- !u!1 &1786032240
 GameObject:
   m_ObjectHideFlags: 0
@@ -5749,7 +5760,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 293.66
-  volume: 2
+  volume: 2.4
 --- !u!23 &1807492575
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6077,7 +6088,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 130.81
-  volume: 2
+  volume: 2.4
 --- !u!23 &1940625145
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6151,6 +6162,26 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300030, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
+--- !u!1 &1967482620 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 160596, guid: dc06161b6d97feb419f45f03b62e14b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 712137638}
+--- !u!114 &1967482624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1967482620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5522562eb55247d438b999613754851f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayAction: {fileID: 11400000, guid: 4c2dd93529820d54eb898dba3bcd9d26, type: 2}
+  PullAction: {fileID: 11400000, guid: b33289411f2e10648a4f482a88ceab24, type: 2}
+  GrabAction: {fileID: 11400000, guid: 44dcc0e3de7b2c74ca7969b47134779b, type: 2}
+  RotationAction: {fileID: 11400000, guid: 8d89257952440f441afef28a29af7452, type: 2}
 --- !u!1 &1972290453
 GameObject:
   m_ObjectHideFlags: 0
@@ -6198,7 +6229,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 220
-  volume: 2
+  volume: 2.4
 --- !u!23 &1972290456
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6448,8 +6479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e32fa50e49ab5d5448f9ae3fb3de6eb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hand: {fileID: 0}
-  RotationAction: {fileID: 11400000, guid: 8d89257952440f441afef28a29af7452, type: 2}
+  RotationChange: {x: 0, y: 0, z: 0}
 --- !u!114 &2029708233
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6676,8 +6706,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4acf4879162f6af42af5e1d884c4dc9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  freq: 0
-  volume: 1
+  freq: 110
+  volume: 4
 --- !u!54 &2036225977
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6794,56 +6824,26 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2070743075}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1001 &2073171790
-Prefab:
+--- !u!1 &2106409015 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 144230, guid: dc06161b6d97feb419f45f03b62e14b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 712137638}
+--- !u!114 &2106409019
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 144230, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
-      propertyPath: m_TagString
-      value: GameController
-      objectReference: {fileID: 0}
-    - target: {fileID: 160596, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
-      propertyPath: m_TagString
-      value: GameController
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
-  m_IsPrefabAsset: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2106409015}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5522562eb55247d438b999613754851f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayAction: {fileID: 11400000, guid: 4c2dd93529820d54eb898dba3bcd9d26, type: 2}
+  PullAction: {fileID: 11400000, guid: b33289411f2e10648a4f482a88ceab24, type: 2}
+  GrabAction: {fileID: 11400000, guid: 44dcc0e3de7b2c74ca7969b47134779b, type: 2}
+  RotationAction: {fileID: 11400000, guid: 8d89257952440f441afef28a29af7452, type: 2}
 --- !u!1 &2113047761
 GameObject:
   m_ObjectHideFlags: 0
@@ -6977,8 +6977,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4acf4879162f6af42af5e1d884c4dc9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  freq: 0
-  volume: 1
+  freq: 220
+  volume: 4
 --- !u!23 &2146826904
 MeshRenderer:
   m_ObjectHideFlags: 0
