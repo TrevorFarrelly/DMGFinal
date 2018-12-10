@@ -125,7 +125,8 @@ GameObject:
   - component: {fileID: 9478270}
   - component: {fileID: 9478269}
   - component: {fileID: 9478268}
-  - component: {fileID: 9478271}
+  - component: {fileID: 9478273}
+  - component: {fileID: 9478275}
   m_Layer: 0
   m_Name: f5
   m_TagString: SoundPanel
@@ -204,7 +205,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 9478266}
   m_Mesh: {fileID: 4300024, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &9478271
+--- !u!54 &9478273
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 9478266}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &9478275
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -230,7 +246,8 @@ GameObject:
   - component: {fileID: 29893408}
   - component: {fileID: 29893407}
   - component: {fileID: 29893406}
-  - component: {fileID: 29893409}
+  - component: {fileID: 29893411}
+  - component: {fileID: 29893413}
   m_Layer: 0
   m_Name: f4
   m_TagString: SoundPanel
@@ -309,7 +326,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 29893404}
   m_Mesh: {fileID: 4300022, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &29893409
+--- !u!54 &29893411
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 29893404}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &29893413
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -335,7 +367,8 @@ GameObject:
   - component: {fileID: 42929579}
   - component: {fileID: 42929578}
   - component: {fileID: 42929577}
-  - component: {fileID: 42929580}
+  - component: {fileID: 42929582}
+  - component: {fileID: 42929584}
   m_Layer: 0
   m_Name: f5
   m_TagString: SoundPanel
@@ -369,7 +402,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 174.61
-  volume: 1.6
+  volume: 2
 --- !u!23 &42929578
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -414,7 +447,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 42929575}
   m_Mesh: {fileID: 4300038, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &42929580
+--- !u!54 &42929582
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 42929575}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &42929584
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -440,7 +488,8 @@ GameObject:
   - component: {fileID: 82363751}
   - component: {fileID: 82363750}
   - component: {fileID: 82363749}
-  - component: {fileID: 82363752}
+  - component: {fileID: 82363754}
+  - component: {fileID: 82363756}
   m_Layer: 0
   m_Name: f12
   m_TagString: SoundPanel
@@ -474,7 +523,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 392
-  volume: 1.6
+  volume: 2
 --- !u!23 &82363750
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -519,7 +568,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 82363747}
   m_Mesh: {fileID: 4300048, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &82363752
+--- !u!54 &82363754
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 82363747}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &82363756
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -541,11 +605,16 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 86214699}
-  - component: {fileID: 86214700}
   - component: {fileID: 86214702}
   - component: {fileID: 86214701}
-  - component: {fileID: 86214703}
+  - component: {fileID: 86214709}
+  - component: {fileID: 86214707}
+  - component: {fileID: 86214708}
+  - component: {fileID: 86214705}
   - component: {fileID: 86214704}
+  - component: {fileID: 86214700}
+  - component: {fileID: 86214706}
+  - component: {fileID: 86214703}
   m_Layer: 0
   m_Name: dodeca
   m_TagString: SoundObject
@@ -590,7 +659,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdde3fd65a1668f4b86e7ff3e7d1b357, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SoundType: SinOsc
+  SoundType: TriOsc
 --- !u!114 &86214701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -710,7 +779,131 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e32fa50e49ab5d5448f9ae3fb3de6eb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!64 &86214704
+  hand: {fileID: 0}
+  RotationAction: {fileID: 11400000, guid: 8d89257952440f441afef28a29af7452, type: 2}
+--- !u!114 &86214704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 86214698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachmentFlags: 44
+  attachmentOffset: {fileID: 0}
+  catchingSpeedThreshold: -1
+  releaseVelocityStyle: 0
+  releaseVelocityTimeOffset: -0.011
+  scaleReleaseVelocity: 1.1
+  restoreOriginalParent: 1
+  attachEaseIn: 0
+  snapAttachEaseInCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  snapAttachEaseInTime: 0.15
+  onPickUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onDetachFromHand:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  snapAttachEaseInCompleted: 0
+  interactable: {fileID: 0}
+--- !u!114 &86214705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 86214698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activateActionSetOnAttach: {fileID: 0}
+  hideHandOnAttach: 0
+  hideSkeletonOnAttach: 0
+  hideControllerOnAttach: 0
+  handAnimationOnPickup: 0
+  setRangeOfMotionOnPickup: -1
+  useHandObjectAttachmentPoint: 1
+  handFollowTransform: {fileID: 0}
+  handFollowTransformPosition: 1
+  handFollowTransformRotation: 1
+  highlightOnHover: 1
+  hideHighlight: []
+--- !u!114 &86214706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 86214698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e746c9d32ea1baa41b1eda052a25b634, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isSmall: 0
+  iterations: 75
+  scale: 0.1
+--- !u!54 &86214707
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 86214698}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &86214708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 86214698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityAverageFrames: 5
+  angularVelocityAverageFrames: 11
+  estimateOnAwake: 0
+--- !u!64 &86214709
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -886,7 +1079,8 @@ GameObject:
   - component: {fileID: 135748544}
   - component: {fileID: 135748543}
   - component: {fileID: 135748542}
-  - component: {fileID: 135748545}
+  - component: {fileID: 135748547}
+  - component: {fileID: 135748549}
   m_Layer: 0
   m_Name: f6
   m_TagString: SoundPanel
@@ -920,7 +1114,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 196
-  volume: 1.6
+  volume: 2
 --- !u!23 &135748543
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -965,7 +1159,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 135748540}
   m_Mesh: {fileID: 4300036, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &135748545
+--- !u!54 &135748547
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 135748540}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &135748549
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -990,8 +1199,8 @@ GameObject:
   - component: {fileID: 154361618}
   - component: {fileID: 154361621}
   - component: {fileID: 154361620}
-  - component: {fileID: 154361619}
-  - component: {fileID: 154361622}
+  - component: {fileID: 154361623}
+  - component: {fileID: 154361625}
   m_Layer: 0
   m_Name: dodeca
   m_TagString: SoundObject
@@ -1013,19 +1222,6 @@ Transform:
   m_Father: {fileID: 86214699}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &154361619
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 154361617}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4acf4879162f6af42af5e1d884c4dc9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  freq: 0
-  volume: 0
 --- !u!23 &154361620
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1070,7 +1266,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 154361617}
   m_Mesh: {fileID: 4300028, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &154361622
+--- !u!54 &154361623
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 154361617}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &154361625
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1095,8 +1306,8 @@ GameObject:
   - component: {fileID: 290711312}
   - component: {fileID: 290711314}
   - component: {fileID: 290711313}
-  - component: {fileID: 290711316}
-  - component: {fileID: 290711315}
+  - component: {fileID: 290711317}
+  - component: {fileID: 290711319}
   m_Layer: 0
   m_Name: cube
   m_TagString: SoundObject
@@ -1162,7 +1373,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 290711311}
   m_Mesh: {fileID: 4300004, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &290711315
+--- !u!54 &290711317
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 290711311}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &290711319
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1176,19 +1402,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300004, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!114 &290711316
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 290711311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4acf4879162f6af42af5e1d884c4dc9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  freq: 0
-  volume: 0
 --- !u!1 &299585487
 GameObject:
   m_ObjectHideFlags: 0
@@ -1200,8 +1413,8 @@ GameObject:
   - component: {fileID: 299585488}
   - component: {fileID: 299585491}
   - component: {fileID: 299585490}
-  - component: {fileID: 299585489}
-  - component: {fileID: 299585492}
+  - component: {fileID: 299585493}
+  - component: {fileID: 299585495}
   m_Layer: 0
   m_Name: tetra
   m_TagString: SoundObject
@@ -1223,19 +1436,6 @@ Transform:
   m_Father: {fileID: 1706520691}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &299585489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 299585487}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4acf4879162f6af42af5e1d884c4dc9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  freq: 0
-  volume: 0
 --- !u!23 &299585490
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1280,7 +1480,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 299585487}
   m_Mesh: {fileID: 4300008, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &299585492
+--- !u!54 &299585493
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 299585487}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &299585495
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1294,57 +1509,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300008, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!1001 &328663187
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 11450312, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
-      propertyPath: renderModelPrefab
-      value: 
-      objectReference: {fileID: 1000011547835092, guid: d5082f7d9f947374197e0a97786f4e40,
-        type: 2}
-    - target: {fileID: 11497470, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
-      propertyPath: showDebugText
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
-  m_IsPrefabAsset: 0
 --- !u!1 &329233935
 GameObject:
   m_ObjectHideFlags: 0
@@ -1373,8 +1537,6 @@ Transform:
   - {fileID: 483087901}
   - {fileID: 1360561814}
   - {fileID: 876172754}
-  - {fileID: 1850779135}
-  - {fileID: 1997672707}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1390,7 +1552,8 @@ GameObject:
   - component: {fileID: 396668047}
   - component: {fileID: 396668046}
   - component: {fileID: 396668045}
-  - component: {fileID: 396668048}
+  - component: {fileID: 396668050}
+  - component: {fileID: 396668052}
   m_Layer: 0
   m_Name: f2
   m_TagString: SoundPanel
@@ -1423,7 +1586,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4acf4879162f6af42af5e1d884c4dc9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  freq: 0
+  freq: 174.61
   volume: 1
 --- !u!23 &396668046
 MeshRenderer:
@@ -1469,7 +1632,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 396668043}
   m_Mesh: {fileID: 4300014, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &396668048
+--- !u!54 &396668050
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 396668043}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &396668052
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1495,7 +1673,8 @@ GameObject:
   - component: {fileID: 474782587}
   - component: {fileID: 474782586}
   - component: {fileID: 474782585}
-  - component: {fileID: 474782588}
+  - component: {fileID: 474782590}
+  - component: {fileID: 474782592}
   m_Layer: 0
   m_Name: f3
   m_TagString: SoundPanel
@@ -1528,7 +1707,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4acf4879162f6af42af5e1d884c4dc9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  freq: 0
+  freq: 196
   volume: 1
 --- !u!23 &474782586
 MeshRenderer:
@@ -1574,7 +1753,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 474782583}
   m_Mesh: {fileID: 4300010, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &474782588
+--- !u!54 &474782590
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 474782583}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &474782592
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1665,8 +1859,9 @@ GameObject:
   - component: {fileID: 500746142}
   - component: {fileID: 500746144}
   - component: {fileID: 500746143}
-  - component: {fileID: 500746145}
   - component: {fileID: 500746146}
+  - component: {fileID: 500746148}
+  - component: {fileID: 500746150}
   m_Layer: 0
   m_Name: f4
   m_TagString: SoundPanel
@@ -1732,7 +1927,35 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 500746141}
   m_Mesh: {fileID: 4300006, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &500746145
+--- !u!114 &500746146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 500746141}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4acf4879162f6af42af5e1d884c4dc9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  freq: 110
+  volume: 1
+--- !u!54 &500746148
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 500746141}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &500746150
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1746,114 +1969,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300006, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!114 &500746146
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 500746141}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4acf4879162f6af42af5e1d884c4dc9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  freq: 0
-  volume: 1
---- !u!1001 &572432645
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 329233936}
-    m_Modifications:
-    - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
-      propertyPath: m_RootOrder
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 8252162, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
-      propertyPath: m_Volume
-      value: 0.005
-      objectReference: {fileID: 0}
-    - target: {fileID: 8269332, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
-      propertyPath: m_Volume
-      value: 0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 8261204, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
-      propertyPath: m_Volume
-      value: 0.005
-      objectReference: {fileID: 0}
-    - target: {fileID: 8265126, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
-      propertyPath: m_Volume
-      value: 0.005
-      objectReference: {fileID: 0}
-    - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
-      propertyPath: m_LocalScale.y
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 4
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7a135b1a2cb9c8f488d4dd00c55ab283, type: 2}
-  m_IsPrefabAsset: 0
---- !u!1 &592426553 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 160596, guid: dc06161b6d97feb419f45f03b62e14b9,
-    type: 2}
-  m_PrefabInternal: {fileID: 328663187}
---- !u!114 &592426556 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11401046, guid: dc06161b6d97feb419f45f03b62e14b9,
-    type: 2}
-  m_PrefabInternal: {fileID: 328663187}
-  m_Script: {fileID: 11500000, guid: 29e3e4511966ba94d8ba0b98c6c62f82, type: 3}
---- !u!114 &592426557
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 592426553}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5522562eb55247d438b999613754851f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hand: {fileID: 592426556}
-  triggerAction: {fileID: 11400000, guid: e6112a5159b7e9d4da53ae21568c2ed6, type: 2}
-  gripAction: {fileID: 11400000, guid: 40c1877aa382db24cae0ef306a7f1c75, type: 2}
 --- !u!1 &700261909
 GameObject:
   m_ObjectHideFlags: 0
@@ -1866,7 +1981,8 @@ GameObject:
   - component: {fileID: 700261913}
   - component: {fileID: 700261912}
   - component: {fileID: 700261911}
-  - component: {fileID: 700261914}
+  - component: {fileID: 700261916}
+  - component: {fileID: 700261918}
   m_Layer: 0
   m_Name: f8
   m_TagString: SoundPanel
@@ -1900,7 +2016,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 261.63
-  volume: 1.6
+  volume: 2
 --- !u!23 &700261912
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1945,7 +2061,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 700261909}
   m_Mesh: {fileID: 4300040, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &700261914
+--- !u!54 &700261916
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 700261909}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &700261918
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1971,7 +2102,8 @@ GameObject:
   - component: {fileID: 714121826}
   - component: {fileID: 714121825}
   - component: {fileID: 714121824}
-  - component: {fileID: 714121827}
+  - component: {fileID: 714121829}
+  - component: {fileID: 714121831}
   m_Layer: 0
   m_Name: f8
   m_TagString: SoundPanel
@@ -2050,7 +2182,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 714121822}
   m_Mesh: {fileID: 4300064, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &714121827
+--- !u!54 &714121829
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 714121822}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &714121831
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2064,31 +2211,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300064, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!1 &723808849 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 144230, guid: dc06161b6d97feb419f45f03b62e14b9,
-    type: 2}
-  m_PrefabInternal: {fileID: 328663187}
---- !u!114 &723808850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 723808849}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5522562eb55247d438b999613754851f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hand: {fileID: 723808853}
-  triggerAction: {fileID: 11400000, guid: e6112a5159b7e9d4da53ae21568c2ed6, type: 2}
-  gripAction: {fileID: 11400000, guid: 40c1877aa382db24cae0ef306a7f1c75, type: 2}
---- !u!114 &723808853 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 11450312, guid: dc06161b6d97feb419f45f03b62e14b9,
-    type: 2}
-  m_PrefabInternal: {fileID: 328663187}
-  m_Script: {fileID: 11500000, guid: 29e3e4511966ba94d8ba0b98c6c62f82, type: 3}
 --- !u!1 &732111915
 GameObject:
   m_ObjectHideFlags: 0
@@ -2188,7 +2310,8 @@ GameObject:
   - component: {fileID: 741491297}
   - component: {fileID: 741491296}
   - component: {fileID: 741491295}
-  - component: {fileID: 741491298}
+  - component: {fileID: 741491300}
+  - component: {fileID: 741491302}
   m_Layer: 0
   m_Name: f3
   m_TagString: SoundPanel
@@ -2267,7 +2390,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 741491293}
   m_Mesh: {fileID: 4300056, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &741491298
+--- !u!54 &741491300
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 741491293}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &741491302
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2327,7 +2465,8 @@ GameObject:
   - component: {fileID: 944623637}
   - component: {fileID: 944623636}
   - component: {fileID: 944623635}
-  - component: {fileID: 944623638}
+  - component: {fileID: 944623640}
+  - component: {fileID: 944623642}
   m_Layer: 0
   m_Name: f2
   m_TagString: SoundPanel
@@ -2406,7 +2545,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 944623633}
   m_Mesh: {fileID: 4300054, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &944623638
+--- !u!54 &944623640
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 944623633}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &944623642
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2519,7 +2673,8 @@ GameObject:
   - component: {fileID: 961067982}
   - component: {fileID: 961067981}
   - component: {fileID: 961067980}
-  - component: {fileID: 961067983}
+  - component: {fileID: 961067985}
+  - component: {fileID: 961067987}
   m_Layer: 0
   m_Name: f7
   m_TagString: SoundPanel
@@ -2598,7 +2753,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 961067978}
   m_Mesh: {fileID: 4300066, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &961067983
+--- !u!54 &961067985
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 961067978}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &961067987
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2612,6 +2782,26 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300066, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
+--- !u!1 &973008406 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 144230, guid: dc06161b6d97feb419f45f03b62e14b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 2073171790}
+--- !u!114 &973008408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 973008406}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5522562eb55247d438b999613754851f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hand: {fileID: 0}
+  PlayAction: {fileID: 11400000, guid: 4c2dd93529820d54eb898dba3bcd9d26, type: 2}
+  PullAction: {fileID: 11400000, guid: b33289411f2e10648a4f482a88ceab24, type: 2}
+  GrabAction: {fileID: 11400000, guid: 44dcc0e3de7b2c74ca7969b47134779b, type: 2}
 --- !u!1 &996477660
 GameObject:
   m_ObjectHideFlags: 0
@@ -2624,7 +2814,8 @@ GameObject:
   - component: {fileID: 996477664}
   - component: {fileID: 996477663}
   - component: {fileID: 996477662}
-  - component: {fileID: 996477665}
+  - component: {fileID: 996477667}
+  - component: {fileID: 996477669}
   m_Layer: 0
   m_Name: f6
   m_TagString: SoundPanel
@@ -2703,7 +2894,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 996477660}
   m_Mesh: {fileID: 4300026, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &996477665
+--- !u!54 &996477667
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 996477660}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &996477669
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2903,7 +3109,8 @@ GameObject:
   - component: {fileID: 1104408527}
   - component: {fileID: 1104408526}
   - component: {fileID: 1104408525}
-  - component: {fileID: 1104408528}
+  - component: {fileID: 1104408530}
+  - component: {fileID: 1104408532}
   m_Layer: 0
   m_Name: f3
   m_TagString: SoundPanel
@@ -2937,7 +3144,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 146.83
-  volume: 1.6
+  volume: 2
 --- !u!23 &1104408526
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2982,7 +3189,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1104408523}
   m_Mesh: {fileID: 4300032, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &1104408528
+--- !u!54 &1104408530
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1104408523}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1104408532
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3008,7 +3230,8 @@ GameObject:
   - component: {fileID: 1120013937}
   - component: {fileID: 1120013936}
   - component: {fileID: 1120013935}
-  - component: {fileID: 1120013938}
+  - component: {fileID: 1120013940}
+  - component: {fileID: 1120013942}
   m_Layer: 0
   m_Name: f4
   m_TagString: SoundPanel
@@ -3042,7 +3265,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 164.81
-  volume: 1.6
+  volume: 2
 --- !u!23 &1120013936
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3087,7 +3310,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1120013933}
   m_Mesh: {fileID: 4300034, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &1120013938
+--- !u!54 &1120013940
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1120013933}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1120013942
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3113,7 +3351,8 @@ GameObject:
   - component: {fileID: 1157051006}
   - component: {fileID: 1157051005}
   - component: {fileID: 1157051004}
-  - component: {fileID: 1157051007}
+  - component: {fileID: 1157051009}
+  - component: {fileID: 1157051011}
   m_Layer: 0
   m_Name: f10
   m_TagString: SoundPanel
@@ -3147,7 +3386,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 329.63
-  volume: 1.6
+  volume: 2
 --- !u!23 &1157051005
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3192,7 +3431,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1157051002}
   m_Mesh: {fileID: 4300044, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &1157051007
+--- !u!54 &1157051009
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1157051002}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1157051011
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3214,11 +3468,16 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1195426415}
-  - component: {fileID: 1195426416}
   - component: {fileID: 1195426418}
   - component: {fileID: 1195426417}
-  - component: {fileID: 1195426419}
+  - component: {fileID: 1195426425}
+  - component: {fileID: 1195426423}
+  - component: {fileID: 1195426424}
+  - component: {fileID: 1195426421}
   - component: {fileID: 1195426420}
+  - component: {fileID: 1195426416}
+  - component: {fileID: 1195426422}
+  - component: {fileID: 1195426419}
   m_Layer: 0
   m_Name: octa
   m_TagString: SoundObject
@@ -3259,7 +3518,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdde3fd65a1668f4b86e7ff3e7d1b357, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SoundType: TriOsc
+  SoundType: SinOsc
 --- !u!114 &1195426417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3379,7 +3638,131 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e32fa50e49ab5d5448f9ae3fb3de6eb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!64 &1195426420
+  hand: {fileID: 0}
+  RotationAction: {fileID: 11400000, guid: 8d89257952440f441afef28a29af7452, type: 2}
+--- !u!114 &1195426420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1195426414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachmentFlags: 44
+  attachmentOffset: {fileID: 0}
+  catchingSpeedThreshold: -1
+  releaseVelocityStyle: 0
+  releaseVelocityTimeOffset: -0.011
+  scaleReleaseVelocity: 1.1
+  restoreOriginalParent: 1
+  attachEaseIn: 0
+  snapAttachEaseInCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  snapAttachEaseInTime: 0.15
+  onPickUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onDetachFromHand:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  snapAttachEaseInCompleted: 0
+  interactable: {fileID: 0}
+--- !u!114 &1195426421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1195426414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activateActionSetOnAttach: {fileID: 0}
+  hideHandOnAttach: 0
+  hideSkeletonOnAttach: 0
+  hideControllerOnAttach: 0
+  handAnimationOnPickup: 0
+  setRangeOfMotionOnPickup: -1
+  useHandObjectAttachmentPoint: 1
+  handFollowTransform: {fileID: 0}
+  handFollowTransformPosition: 1
+  handFollowTransformRotation: 1
+  highlightOnHover: 1
+  hideHighlight: []
+--- !u!114 &1195426422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1195426414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e746c9d32ea1baa41b1eda052a25b634, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isSmall: 0
+  iterations: 75
+  scale: 0.1
+--- !u!54 &1195426423
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1195426414}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1195426424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1195426414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityAverageFrames: 5
+  angularVelocityAverageFrames: 11
+  estimateOnAwake: 0
+--- !u!64 &1195426425
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3405,7 +3788,8 @@ GameObject:
   - component: {fileID: 1207293620}
   - component: {fileID: 1207293619}
   - component: {fileID: 1207293618}
-  - component: {fileID: 1207293621}
+  - component: {fileID: 1207293623}
+  - component: {fileID: 1207293625}
   m_Layer: 0
   m_Name: f3
   m_TagString: SoundPanel
@@ -3484,7 +3868,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1207293616}
   m_Mesh: {fileID: 4300020, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &1207293621
+--- !u!54 &1207293623
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1207293616}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1207293625
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3510,7 +3909,8 @@ GameObject:
   - component: {fileID: 1251135420}
   - component: {fileID: 1251135419}
   - component: {fileID: 1251135418}
-  - component: {fileID: 1251135421}
+  - component: {fileID: 1251135423}
+  - component: {fileID: 1251135425}
   m_Layer: 0
   m_Name: f11
   m_TagString: SoundPanel
@@ -3544,7 +3944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 349.23
-  volume: 1.6
+  volume: 2
 --- !u!23 &1251135419
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3589,7 +3989,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1251135416}
   m_Mesh: {fileID: 4300050, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &1251135421
+--- !u!54 &1251135423
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1251135416}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1251135425
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3615,7 +4030,8 @@ GameObject:
   - component: {fileID: 1356342635}
   - component: {fileID: 1356342634}
   - component: {fileID: 1356342633}
-  - component: {fileID: 1356342636}
+  - component: {fileID: 1356342638}
+  - component: {fileID: 1356342640}
   m_Layer: 0
   m_Name: f4
   m_TagString: SoundPanel
@@ -3694,7 +4110,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1356342631}
   m_Mesh: {fileID: 4300058, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &1356342636
+--- !u!54 &1356342638
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1356342631}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1356342640
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3754,7 +4185,8 @@ GameObject:
   - component: {fileID: 1371795180}
   - component: {fileID: 1371795179}
   - component: {fileID: 1371795178}
-  - component: {fileID: 1371795181}
+  - component: {fileID: 1371795183}
+  - component: {fileID: 1371795185}
   m_Layer: 0
   m_Name: f1
   m_TagString: SoundPanel
@@ -3833,7 +4265,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1371795176}
   m_Mesh: {fileID: 4300016, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &1371795181
+--- !u!54 &1371795183
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1371795176}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1371795185
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4083,7 +4530,8 @@ GameObject:
   - component: {fileID: 1423247228}
   - component: {fileID: 1423247227}
   - component: {fileID: 1423247226}
-  - component: {fileID: 1423247229}
+  - component: {fileID: 1423247231}
+  - component: {fileID: 1423247233}
   m_Layer: 0
   m_Name: f2
   m_TagString: SoundPanel
@@ -4162,7 +4610,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1423247224}
   m_Mesh: {fileID: 4300018, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &1423247229
+--- !u!54 &1423247231
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1423247224}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1423247233
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4188,7 +4651,8 @@ GameObject:
   - component: {fileID: 1446404007}
   - component: {fileID: 1446404006}
   - component: {fileID: 1446404005}
-  - component: {fileID: 1446404008}
+  - component: {fileID: 1446404010}
+  - component: {fileID: 1446404012}
   m_Layer: 0
   m_Name: f1
   m_TagString: SoundPanel
@@ -4221,7 +4685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4acf4879162f6af42af5e1d884c4dc9e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  freq: 0
+  freq: 146.83
   volume: 1
 --- !u!23 &1446404006
 MeshRenderer:
@@ -4267,7 +4731,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1446404003}
   m_Mesh: {fileID: 4300012, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &1446404008
+--- !u!54 &1446404010
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1446404003}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1446404012
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4292,8 +4771,9 @@ GameObject:
   - component: {fileID: 1532008765}
   - component: {fileID: 1532008767}
   - component: {fileID: 1532008766}
-  - component: {fileID: 1532008768}
   - component: {fileID: 1532008769}
+  - component: {fileID: 1532008771}
+  - component: {fileID: 1532008773}
   m_Layer: 0
   m_Name: f1
   m_TagString: SoundPanel
@@ -4359,7 +4839,35 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1532008764}
   m_Mesh: {fileID: 4300002, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &1532008768
+--- !u!114 &1532008769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1532008764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4acf4879162f6af42af5e1d884c4dc9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  freq: 110
+  volume: 2
+--- !u!54 &1532008771
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1532008764}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1532008773
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4373,19 +4881,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300002, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!114 &1532008769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1532008764}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4acf4879162f6af42af5e1d884c4dc9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  freq: 110
-  volume: 1.6
 --- !u!1 &1543706552
 GameObject:
   m_ObjectHideFlags: 0
@@ -4568,11 +5063,16 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1706520691}
-  - component: {fileID: 1706520692}
   - component: {fileID: 1706520694}
   - component: {fileID: 1706520693}
-  - component: {fileID: 1706520695}
+  - component: {fileID: 1706520701}
+  - component: {fileID: 1706520699}
+  - component: {fileID: 1706520700}
+  - component: {fileID: 1706520697}
   - component: {fileID: 1706520696}
+  - component: {fileID: 1706520692}
+  - component: {fileID: 1706520698}
+  - component: {fileID: 1706520695}
   m_Layer: 0
   m_Name: tetra
   m_TagString: SoundObject
@@ -4729,7 +5229,131 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e32fa50e49ab5d5448f9ae3fb3de6eb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!64 &1706520696
+  hand: {fileID: 0}
+  RotationAction: {fileID: 11400000, guid: 8d89257952440f441afef28a29af7452, type: 2}
+--- !u!114 &1706520696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1706520690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachmentFlags: 44
+  attachmentOffset: {fileID: 0}
+  catchingSpeedThreshold: -1
+  releaseVelocityStyle: 0
+  releaseVelocityTimeOffset: -0.011
+  scaleReleaseVelocity: 1.1
+  restoreOriginalParent: 1
+  attachEaseIn: 0
+  snapAttachEaseInCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  snapAttachEaseInTime: 0.15
+  onPickUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onDetachFromHand:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  snapAttachEaseInCompleted: 0
+  interactable: {fileID: 0}
+--- !u!114 &1706520697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1706520690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activateActionSetOnAttach: {fileID: 0}
+  hideHandOnAttach: 0
+  hideSkeletonOnAttach: 0
+  hideControllerOnAttach: 0
+  handAnimationOnPickup: 0
+  setRangeOfMotionOnPickup: -1
+  useHandObjectAttachmentPoint: 1
+  handFollowTransform: {fileID: 0}
+  handFollowTransformPosition: 1
+  handFollowTransformRotation: 1
+  highlightOnHover: 1
+  hideHighlight: []
+--- !u!114 &1706520698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1706520690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e746c9d32ea1baa41b1eda052a25b634, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isSmall: 0
+  iterations: 75
+  scale: 0.1
+--- !u!54 &1706520699
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1706520690}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &1706520700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1706520690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityAverageFrames: 5
+  angularVelocityAverageFrames: 11
+  estimateOnAwake: 0
+--- !u!64 &1706520701
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4755,7 +5379,8 @@ GameObject:
   - component: {fileID: 1712217258}
   - component: {fileID: 1712217257}
   - component: {fileID: 1712217256}
-  - component: {fileID: 1712217259}
+  - component: {fileID: 1712217261}
+  - component: {fileID: 1712217263}
   m_Layer: 0
   m_Name: f6
   m_TagString: SoundPanel
@@ -4834,7 +5459,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1712217254}
   m_Mesh: {fileID: 4300060, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &1712217259
+--- !u!54 &1712217261
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1712217254}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1712217263
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4859,8 +5499,8 @@ GameObject:
   - component: {fileID: 1757193440}
   - component: {fileID: 1757193443}
   - component: {fileID: 1757193442}
-  - component: {fileID: 1757193441}
-  - component: {fileID: 1757193444}
+  - component: {fileID: 1757193445}
+  - component: {fileID: 1757193447}
   m_Layer: 0
   m_Name: octa
   m_TagString: SoundObject
@@ -4882,19 +5522,6 @@ Transform:
   m_Father: {fileID: 1195426415}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1757193441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1757193439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4acf4879162f6af42af5e1d884c4dc9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  freq: 0
-  volume: 0
 --- !u!23 &1757193442
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4939,7 +5566,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1757193439}
   m_Mesh: {fileID: 4300052, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &1757193444
+--- !u!54 &1757193445
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1757193439}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1757193447
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4953,6 +5595,26 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300052, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
+--- !u!1 &1772724413 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 160596, guid: dc06161b6d97feb419f45f03b62e14b9,
+    type: 2}
+  m_PrefabInternal: {fileID: 2073171790}
+--- !u!114 &1772724415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1772724413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5522562eb55247d438b999613754851f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hand: {fileID: 0}
+  PlayAction: {fileID: 11400000, guid: 4c2dd93529820d54eb898dba3bcd9d26, type: 2}
+  PullAction: {fileID: 11400000, guid: b33289411f2e10648a4f482a88ceab24, type: 2}
+  GrabAction: {fileID: 11400000, guid: 44dcc0e3de7b2c74ca7969b47134779b, type: 2}
 --- !u!1 &1786032240
 GameObject:
   m_ObjectHideFlags: 0
@@ -5052,7 +5714,8 @@ GameObject:
   - component: {fileID: 1807492576}
   - component: {fileID: 1807492575}
   - component: {fileID: 1807492574}
-  - component: {fileID: 1807492577}
+  - component: {fileID: 1807492579}
+  - component: {fileID: 1807492581}
   m_Layer: 0
   m_Name: f9
   m_TagString: SoundPanel
@@ -5086,7 +5749,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 293.66
-  volume: 1.6
+  volume: 2
 --- !u!23 &1807492575
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5131,7 +5794,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1807492572}
   m_Mesh: {fileID: 4300046, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &1807492577
+--- !u!54 &1807492579
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1807492572}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1807492581
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5178,107 +5856,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1850779134
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1850779135}
-  - component: {fileID: 1850779139}
-  - component: {fileID: 1850779138}
-  - component: {fileID: 1850779137}
-  - component: {fileID: 1850779136}
-  m_Layer: 0
-  m_Name: Teleport
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1850779135
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1850779134}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.01, z: 0}
-  m_LocalScale: {x: 5, y: 1, z: 5}
-  m_Children: []
-  m_Father: {fileID: 329233936}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1850779136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1850779134}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 84a4f15a3179f1d4993aded11f4d0232, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  locked: 0
-  markerActive: 1
---- !u!64 &1850779137
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1850779134}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &1850779138
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1850779134}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 2100000, guid: 417e639b66cd3a24e9c5312be99ce3bd, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &1850779139
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1850779134}
-  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1869392062
 GameObject:
   m_ObjectHideFlags: 0
@@ -5465,7 +6042,8 @@ GameObject:
   - component: {fileID: 1940625146}
   - component: {fileID: 1940625145}
   - component: {fileID: 1940625144}
-  - component: {fileID: 1940625147}
+  - component: {fileID: 1940625149}
+  - component: {fileID: 1940625151}
   m_Layer: 0
   m_Name: f2
   m_TagString: SoundPanel
@@ -5499,7 +6077,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 130.81
-  volume: 1.6
+  volume: 2
 --- !u!23 &1940625145
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5544,7 +6122,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1940625142}
   m_Mesh: {fileID: 4300030, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &1940625147
+--- !u!54 &1940625149
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1940625142}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1940625151
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5570,7 +6163,8 @@ GameObject:
   - component: {fileID: 1972290457}
   - component: {fileID: 1972290456}
   - component: {fileID: 1972290455}
-  - component: {fileID: 1972290458}
+  - component: {fileID: 1972290460}
+  - component: {fileID: 1972290462}
   m_Layer: 0
   m_Name: f7
   m_TagString: SoundPanel
@@ -5604,7 +6198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   freq: 220
-  volume: 1.6
+  volume: 2
 --- !u!23 &1972290456
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5649,7 +6243,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1972290453}
   m_Mesh: {fileID: 4300042, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &1972290458
+--- !u!54 &1972290460
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1972290453}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &1972290462
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5663,11 +6272,6 @@ MeshCollider:
   m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300042, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!4 &1997672707 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 475244, guid: 7a135b1a2cb9c8f488d4dd00c55ab283,
-    type: 2}
-  m_PrefabInternal: {fileID: 572432645}
 --- !u!1 &2029708227
 GameObject:
   m_ObjectHideFlags: 0
@@ -5676,11 +6280,16 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2029708228}
-  - component: {fileID: 2029708229}
   - component: {fileID: 2029708231}
   - component: {fileID: 2029708230}
-  - component: {fileID: 2029708232}
+  - component: {fileID: 2029708238}
+  - component: {fileID: 2029708236}
+  - component: {fileID: 2029708237}
+  - component: {fileID: 2029708234}
   - component: {fileID: 2029708233}
+  - component: {fileID: 2029708229}
+  - component: {fileID: 2029708235}
+  - component: {fileID: 2029708232}
   m_Layer: 0
   m_Name: cube
   m_TagString: SoundObject
@@ -5839,7 +6448,131 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e32fa50e49ab5d5448f9ae3fb3de6eb3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!64 &2029708233
+  hand: {fileID: 0}
+  RotationAction: {fileID: 11400000, guid: 8d89257952440f441afef28a29af7452, type: 2}
+--- !u!114 &2029708233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2029708227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffefbea063cab884ca33e5a449e5c22c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attachmentFlags: 44
+  attachmentOffset: {fileID: 0}
+  catchingSpeedThreshold: -1
+  releaseVelocityStyle: 0
+  releaseVelocityTimeOffset: -0.011
+  scaleReleaseVelocity: 1.1
+  restoreOriginalParent: 1
+  attachEaseIn: 0
+  snapAttachEaseInCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  snapAttachEaseInTime: 0.15
+  onPickUp:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  onDetachFromHand:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+  snapAttachEaseInCompleted: 0
+  interactable: {fileID: 0}
+--- !u!114 &2029708234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2029708227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b93b6a877adcbf94c89a9d6e0c0e844d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  activateActionSetOnAttach: {fileID: 0}
+  hideHandOnAttach: 0
+  hideSkeletonOnAttach: 0
+  hideControllerOnAttach: 0
+  handAnimationOnPickup: 0
+  setRangeOfMotionOnPickup: -1
+  useHandObjectAttachmentPoint: 1
+  handFollowTransform: {fileID: 0}
+  handFollowTransformPosition: 1
+  handFollowTransformRotation: 1
+  highlightOnHover: 1
+  hideHighlight: []
+--- !u!114 &2029708235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2029708227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e746c9d32ea1baa41b1eda052a25b634, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isSmall: 0
+  iterations: 75
+  scale: 0.1
+--- !u!54 &2029708236
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2029708227}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &2029708237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2029708227}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 783750eec4c41da428b7651515146d14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocityAverageFrames: 5
+  angularVelocityAverageFrames: 11
+  estimateOnAwake: 0
+--- !u!64 &2029708238
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5864,8 +6597,9 @@ GameObject:
   - component: {fileID: 2036225971}
   - component: {fileID: 2036225973}
   - component: {fileID: 2036225972}
-  - component: {fileID: 2036225974}
   - component: {fileID: 2036225975}
+  - component: {fileID: 2036225977}
+  - component: {fileID: 2036225979}
   m_Layer: 0
   m_Name: f1
   m_TagString: SoundPanel
@@ -5931,20 +6665,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2036225970}
   m_Mesh: {fileID: 4300000, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &2036225974
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2036225970}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Convex: 0
-  m_CookingOptions: 14
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
 --- !u!114 &2036225975
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5958,6 +6678,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   freq: 0
   volume: 1
+--- !u!54 &2036225977
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2036225970}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &2036225979
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2036225970}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 4300000, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
 --- !u!1 &2070743075
 GameObject:
   m_ObjectHideFlags: 0
@@ -6045,6 +6794,56 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2070743075}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &2073171790
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 447954, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 144230, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+      propertyPath: m_TagString
+      value: GameController
+      objectReference: {fileID: 0}
+    - target: {fileID: 160596, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+      propertyPath: m_TagString
+      value: GameController
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: dc06161b6d97feb419f45f03b62e14b9, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &2113047761
 GameObject:
   m_ObjectHideFlags: 0
@@ -6144,7 +6943,8 @@ GameObject:
   - component: {fileID: 2146826905}
   - component: {fileID: 2146826904}
   - component: {fileID: 2146826903}
-  - component: {fileID: 2146826906}
+  - component: {fileID: 2146826908}
+  - component: {fileID: 2146826910}
   m_Layer: 0
   m_Name: f5
   m_TagString: SoundPanel
@@ -6223,7 +7023,22 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2146826901}
   m_Mesh: {fileID: 4300062, guid: 5144416af3bfb1f4a99c81a0b6e16365, type: 3}
---- !u!64 &2146826906
+--- !u!54 &2146826908
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2146826901}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!64 &2146826910
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

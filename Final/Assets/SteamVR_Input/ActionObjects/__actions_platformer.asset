@@ -8,19 +8,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fb6d2930719bc24890d5623d34f3575, type: 3}
+  m_Script: {fileID: 11500000, guid: 415ccccab68a6144382d53a9a20c3379, type: 3}
   m_Name: __actions_platformer
   m_EditorClassIdentifier: 
   allActions:
-  - {fileID: 11400000, guid: 550a8c02c0c08fb4685d38fbe9643829, type: 2}
-  - {fileID: 11400000, guid: 1ec3b2cf8a14cf545a9c1cf6b08ebe17, type: 2}
+  - {fileID: 11400000, guid: 9da0aa879dc1def468fa77aeb6bf73d2, type: 2}
+  - {fileID: 11400000, guid: 99932d3e1fa19724da5bed60c68f2229, type: 2}
   nonVisualInActions:
-  - {fileID: 11400000, guid: 550a8c02c0c08fb4685d38fbe9643829, type: 2}
-  - {fileID: 11400000, guid: 1ec3b2cf8a14cf545a9c1cf6b08ebe17, type: 2}
+  - {fileID: 11400000, guid: 9da0aa879dc1def468fa77aeb6bf73d2, type: 2}
+  - {fileID: 11400000, guid: 99932d3e1fa19724da5bed60c68f2229, type: 2}
   visualActions: []
   poseActions: []
   skeletonActions: []
   outActionArray: []
   fullPath: /actions/platformer
   usage: single
-  inActions: {fileID: 11400000, guid: 17edb8bb5df3f9e47b89bf9a5e80908b, type: 2}
+  inActions: {fileID: 11400000, guid: ac6330a9247e79145879d6e057e3399c, type: 2}

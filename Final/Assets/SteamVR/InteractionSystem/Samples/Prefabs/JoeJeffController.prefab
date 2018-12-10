@@ -296,9 +296,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Joystick: {fileID: 4000013232486850}
   joyMove: 0.015
-  actionSet: {fileID: 11400000, guid: 4ad6fc8f650e8b5438a1e29bb9f1cd7a, type: 2}
-  a_move: {fileID: 11400000, guid: 550a8c02c0c08fb4685d38fbe9643829, type: 2}
-  a_jump: {fileID: 11400000, guid: 1ec3b2cf8a14cf545a9c1cf6b08ebe17, type: 2}
+  actionSet: {fileID: 11400000, guid: ca9d63c31b180994a94039055d441cd1, type: 2}
+  a_move: {fileID: 11400000, guid: 9da0aa879dc1def468fa77aeb6bf73d2, type: 2}
+  a_jump: {fileID: 11400000, guid: 99932d3e1fa19724da5bed60c68f2229, type: 2}
   character: {fileID: 0}
   jumpHighlight: {fileID: 23000012427665184}
 --- !u!114 &114000013789606070

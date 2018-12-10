@@ -8,21 +8,27 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c77ccb1c577b6c54ab5d57c5a92c963b, type: 3}
+  m_Script: {fileID: 11500000, guid: b547cae9e01ff7f4fa9fac9bc610ad1d, type: 3}
   m_Name: SteamVR_Input_ActionSet_default_In
   m_EditorClassIdentifier: 
   actionSet: {fileID: 0}
   listDirection: 0
   actions:
-  - {fileID: 11400000, guid: 373694b26e7be454eb59cbf3dbef4bfa, type: 2}
-  - {fileID: 11400000, guid: 1fc806137aa5ae64ea443454a5dcddba, type: 2}
-  - {fileID: 11400000, guid: e6112a5159b7e9d4da53ae21568c2ed6, type: 2}
-  - {fileID: 11400000, guid: 40c1877aa382db24cae0ef306a7f1c75, type: 2}
-  - {fileID: 11400000, guid: b33b9ba573705b54c81a4ad339bbc7c4, type: 2}
-  - {fileID: 11400000, guid: 0cf3f2e18089cbf4191c9be1e4a7e259, type: 2}
-  InteractUI: {fileID: 11400000, guid: 373694b26e7be454eb59cbf3dbef4bfa, type: 2}
-  Teleport: {fileID: 11400000, guid: 1fc806137aa5ae64ea443454a5dcddba, type: 2}
-  GrabPinch: {fileID: 11400000, guid: e6112a5159b7e9d4da53ae21568c2ed6, type: 2}
-  GrabGrip: {fileID: 11400000, guid: 40c1877aa382db24cae0ef306a7f1c75, type: 2}
-  Pose: {fileID: 11400000, guid: b33b9ba573705b54c81a4ad339bbc7c4, type: 2}
-  Position: {fileID: 11400000, guid: 0cf3f2e18089cbf4191c9be1e4a7e259, type: 2}
+  - {fileID: 11400000, guid: cfe6954c8ef5e5c4abc00c43aa5fd4ce, type: 2}
+  - {fileID: 11400000, guid: b33289411f2e10648a4f482a88ceab24, type: 2}
+  - {fileID: 11400000, guid: 4c2dd93529820d54eb898dba3bcd9d26, type: 2}
+  - {fileID: 11400000, guid: 44dcc0e3de7b2c74ca7969b47134779b, type: 2}
+  - {fileID: 11400000, guid: c22705eb384f56c4482410b704d5424e, type: 2}
+  - {fileID: 11400000, guid: 4b132a991fd492342bb329f85b8689e9, type: 2}
+  - {fileID: 11400000, guid: 640a34cee1cb57044b24e222ab09c1e3, type: 2}
+  - {fileID: 11400000, guid: c495a4344863b1b40ab8e5a7d6a7b417, type: 2}
+  - {fileID: 11400000, guid: 8d89257952440f441afef28a29af7452, type: 2}
+  InteractUI: {fileID: 11400000, guid: cfe6954c8ef5e5c4abc00c43aa5fd4ce, type: 2}
+  Teleport: {fileID: 11400000, guid: b33289411f2e10648a4f482a88ceab24, type: 2}
+  GrabPinch: {fileID: 11400000, guid: 4c2dd93529820d54eb898dba3bcd9d26, type: 2}
+  GrabGrip: {fileID: 11400000, guid: 44dcc0e3de7b2c74ca7969b47134779b, type: 2}
+  Pose: {fileID: 11400000, guid: c22705eb384f56c4482410b704d5424e, type: 2}
+  SkeletonLeftHand: {fileID: 11400000, guid: 4b132a991fd492342bb329f85b8689e9, type: 2}
+  SkeletonRightHand: {fileID: 11400000, guid: 640a34cee1cb57044b24e222ab09c1e3, type: 2}
+  Squeeze: {fileID: 11400000, guid: c495a4344863b1b40ab8e5a7d6a7b417, type: 2}
+  TouchPosition: {fileID: 11400000, guid: 8d89257952440f441afef28a29af7452, type: 2}

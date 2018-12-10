@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LineDrawer : MonoBehaviour {
+public class LineDrawer {
 
     private LineRenderer lineRenderer;
     private float lineSize;
 
-    public LineDrawer(float lineSize = 0.2f) {
+    public LineDrawer(float lineSize = 0.001f) {
         GameObject lineObj = new GameObject("LineObj");
         lineRenderer = lineObj.AddComponent<LineRenderer>();
         //Particles/Additive
@@ -16,7 +16,7 @@ public class LineDrawer : MonoBehaviour {
         this.lineSize = lineSize;
     }
 
-    private void init(float lineSize = 0.2f) {
+    private void init(float lineSize = 0.001f) {
         if (lineRenderer == null) {
             GameObject lineObj = new GameObject("LineObj");
             lineRenderer = lineObj.AddComponent<LineRenderer>();
@@ -29,9 +29,9 @@ public class LineDrawer : MonoBehaviour {
 
     //Draws lines through the provided vertices
     public void DrawLineInGameView(Vector3 start, Vector3 end, Color color) {
-        if (lineRenderer == null) {
-            init(0.2f);
-        }
+        // draw fresh line, deleting old one
+        Destroy();
+        init();
 
         //Set color
         lineRenderer.startColor = color;

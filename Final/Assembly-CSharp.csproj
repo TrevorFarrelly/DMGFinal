@@ -63,6 +63,8 @@
      <Compile Include="Assets\Chunity\Scripts\Utility\TheChuck.cs" />
      <Compile Include="Assets\Scripts\BackingMusic.cs" />
      <Compile Include="Assets\Scripts\Laser.cs" />
+     <Compile Include="Assets\Scripts\LineDrawer.cs" />
+     <Compile Include="Assets\Scripts\MoveToPlayer.cs" />
      <Compile Include="Assets\Scripts\PlayNote.cs" />
      <Compile Include="Assets\Scripts\Rotator.cs" />
      <Compile Include="Assets\Scripts\SoundID.cs" />
@@ -235,6 +237,7 @@
      <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Samples\BuggyBuddy\Materials\LightCone.shader" />
      <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\Highlight.shader" />
+     <None Include="Assets\New UIElements View.uxml" />
      <None Include="Assets\SteamVR\InteractionSystem\Teleport\Shaders\HighlighGlobal.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_AlphaOut.shader" />

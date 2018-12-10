@@ -27,6 +27,12 @@ namespace Valve.VR
         
         public Valve.VR.SteamVR_Action_Pose Pose;
         
-        public Valve.VR.SteamVR_Action_Vector2 Position;
+        public Valve.VR.SteamVR_Action_Skeleton SkeletonLeftHand;
+        
+        public Valve.VR.SteamVR_Action_Skeleton SkeletonRightHand;
+        
+        public Valve.VR.SteamVR_Action_Single Squeeze;
+        
+        public Valve.VR.SteamVR_Action_Vector2 TouchPosition;
     }
 }
